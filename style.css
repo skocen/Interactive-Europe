@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+path:hover{
+    fill: rgb(130, 149, 185);
+}
+h1,h2,.flag {
+    text-align: center;
+    visibility: hidden;
+}
+.clicked{
+    fill:rgb(0, 31, 88);
+    stroke-width:1;
+    stroke:rgb(41, 190, 61);
+}
