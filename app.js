@@ -21,12 +21,11 @@ function highlightCountry(country){
   document.querySelector("h1").innerText=name;
   document.querySelector("h1").style.visibility="visible";
   for(let i=0;i<countryData.length;i++){
-   if(country.id==countryData[i].alpha2Code)
-      {
+   if(country.id==countryData[i].alpha2Code){
     document.querySelector("h2").innerText="Capital is  "+countryData[i].capital;
     document.querySelector("h2").style.visibility="visible";
                         }
-                    }
+                        }
 }
 
 document.addEventListener("click",function(e){
